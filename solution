@@ -49,7 +49,7 @@ status_t string_to_date_converter(char* input_string, my_date_t* result_date)
 
 int main()
 {
-    char input_string[] = "07/06/2023";
+    char input_string[] = "16/06/2022";
     my_date_t result_date;
     status_t status = string_to_date_converter(input_string, &result_date);
 
